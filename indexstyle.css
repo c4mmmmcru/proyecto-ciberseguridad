@@ -26,11 +26,6 @@ html{
     background-color: #ffc17f;
 }
 
-.navbar{
-    grid-area: navbar;
-    background-color: #d6ff7f;
-}
-
 .article{
     grid-area: article;
     background-color: #c37fff;
@@ -88,4 +83,27 @@ html{
         "footer footer footer" 100px /
          200px  auto    200px;
     }
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition:all 0.3s ease;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    color: #bb0c0c;
+    font-size: 20px;
 }
