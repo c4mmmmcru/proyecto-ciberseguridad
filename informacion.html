@@ -5,27 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Información</title>
     <link rel="stylesheet" href="informacionstyle.css">
+    <!-- Head se utiliza para darle un titulo a la página, lo que se añada aquí no sale en el fronted.-->
 </head>
-<body>
-    <header>
-        <h1> Ciberseguridad </h1>
-    </header>
-    <nav> 
-        <div class="nav-contenedor">
-            <ul class="menu">
-                <li> <a href="index.html"> Index</a> </li>
-                <li> <a href="informacion.html"> Información General </a> </li>
-                <li><a href="galeria.html"> Galería  </a>  </li>
-                <li> <a href="noticias.html"> Noticias </a> </li>
-            </ul>
-        </div>
-    </nav>
-    <h2>Conceptos claves</h2>
+<body class="grid-container">
+    <!-- Backend de la página, se utiliza para darle el formato y escribir los códigos-->
+   <header class="header"> <!-- Encabezado de la página-->
+    <h1> Información</h1> 
+ </header>
+   <nav class="navbar"> <!-- Navegador de la página-->
+    <ul class="menu">
+        <li> <a href="index.html"> Index</a> </li>
+        <li> <a href="informacion.html"> Información</a> </li>
+        <li><a href="galeria.html"> Galería  </a>  </li>
+        <li> <a href="noticias.html"> Noticias </a> </li>
+    </ul>
 
-    <h2> Amenazas</h2>
+   </nav>
+   <aside class="sidebar"> <!-- Sidebar de la página, aquí están los conceptos claves del tema.-->
+    <h1 class="titulo-concepto"> Conceptos Clave </h1>
+    <ol class="conceptos">
+        <li class="esencial"> <strong> Cifrado:</strong> Protección de datos mediante algoritmos que los hacen ilegibles sin una clave correcta.</li>
+        <li class="esencial"> <strong> Autenticación multifactor (MFA):</strong> Uso de múltiples métodos de verificación para mejorar la seguridad de accesos.</li>
+        <li> <strong> Firewall:</strong> Filtro de tráfico que bloquea accesos no autorizados a redes y dispositivos.</li>
+        <li class="esencial"> <strong> Phising:</strong> Intentos de engaño para obtener información confidencial de manera fraudulenta.</li>
+        <li class="esencial"><strong> Malware:</strong> Software malicioso diseñado para dañar o comprometer dispositivos y datos.</li>
+        <li><strong> Ransomware:</strong> Tipo de malware que secuestra archivos y exige pago por su recuperación.</li>
+        <li class="esencial"> <strong>Seguridad Zero Trust:</strong> Modelo donde ningún usuario o dispositvo es confiable por defecto.</li>
+        <li><strong>Principio de menor privilegio:</strong> Restricción de acceso para minimizar riesgos de seguridad.</li>
+        <li><strong>Threat Intelligence (Inteligencia de amenazas):</strong> Análisis y anticipación de ataques mediante datos y patrones.</li>
+        <li><strong>Seguridad en la nube:</strong> Prácticas para proteger datos y aplicaciones alojados en servicios en la nube.</li>
+        <p class="esencial">*Conceptos esenciales que toda persona debe conocer*</p>
+    </ol>
+</aside>
+   <article class="main"> <!-- Aqui estará la parte principal o "main" de la página-->
     
-    <h2> Buenas prácticas </h2>
+<h1 style="text-decoration: underline;"> Amenazas comunes</h1>
+<br>
+<table class="tabla"> <!-- Maquetación de la página web para que se vea más ordenada-->
+    <tr>
+        <td class="celda"><strong>Ataques de fuerza bruta:</strong> Prueban muchas combinaciones de contraseñas hasta encontrar la correcta.</td>
+    </tr>
+    <tr>
+        <td class="celda"><strong>Ataque Man-in-the-Middle (MitM):</strong> Ocurre cuando un atacante intercepta la comunicación entre dos partes sin que lo sepan, permitiéndole leer, modificar o robar información transmitida.</td>
+    </tr>
+    <tr>
+        <td class="celda"><strong>Ingeniería social:</strong> Manipulación psicológica para obtener información de las víctimas.</td>
+    </tr>
+    <tr>
+        <td class="celda"><strong>Ataques a la cadena de suministro:</strong> Vulneraciones a proveedores que afectan múltiples empresas.</td>
+    </tr>
+    <tr>
+        <td class="celda"><strong>Espionaje digital:</strong> Robo de datos personales o empresariales para obtener ventajas ilegítimas.</td>
+    </tr>
+</table>
+<br>
+<h3 style="text-decoration: underline;">Buenas prácticas</h3>
+<table class="tabla" align="center">
+    <tr>
+        <td class="practicas"><strong>Uso de contraseñas seguras:</strong> Implementar combinaciones únicas y fuertes, con autenticación en dos pasos. </td>
+    </tr>
+    <tr>
+        <td class="practicas"><strong>Actualizaciones frecuentes:</strong> Mantener software, sistemas operativos y plugins al día.</td>
+    </tr>
+    <tr>
+        <td class="practicas"><strong>Copias de seguridad:</strong> Respaldas datos regularmente en sitios seguros y desconcetados de internet.</td>
+    </tr>
+    <tr>
+        <td class="practicas"><strong>Capacitación de ciberseguridad:</strong> Educar a empleados y usuarios para reconocer amenazas.</td>
+    </tr>
+    <tr>
+        <td class="practicas"><strong>Implementación de HTTPS:</strong> Asegurar la transmisión de datos entre usuarios y sitio web.</td>
+    </tr>
+</table>
 
-    
+   </article>
+   <footer class="footer"><i> Creado por: Heidy Beltrán, Karen Mayén, Camila Cruz y Fátima Hernández. </i></footer><!-- Footer de la página, se utiliza para dar información adicional, generalmente para informacion de autores o métodos de contactor.-->
 </body>
 </html>
