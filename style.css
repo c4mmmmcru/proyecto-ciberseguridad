@@ -32,7 +32,8 @@ html {
 
 nav {
     grid-area: nav;
-    background-color: rgb(36, 36, 36);
+    background-color: #2F4156;
+    color:#ffffff;
     padding: 1rem;
     border-radius: 8px;
 }
