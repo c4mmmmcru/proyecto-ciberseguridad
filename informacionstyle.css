@@ -1,6 +1,6 @@
 @font-face {
     font-family: "mifuente";
-    src: url(fonts/Pretty\ Spring.ttf) format('truetype');
+    src: url(fonts/GavolineDemo.otf) format('truetype');
 }
 html {
     height: 100%;
@@ -39,11 +39,11 @@ body {
     .header {
         display: flex;
         grid-area: header;
-        background-color: #E0F7FA	;
+        background-color: #c8d9e6;
         align-items: center;
         font-size:30px;
         justify-content: center;
-        color: #004D40 ;
+        color:#2F4156 ;
         transition:all 0.3s ease;
     }
     .titulo-concepto {
@@ -62,7 +62,8 @@ body {
     }
     .navbar {
         grid-area: navbar;
-        background-color: #0288D1	;
+        background-color: #2F4156	;
+        color:white;
         font-size: 13px;
     }
     .menu {
@@ -81,8 +82,9 @@ body {
      }
     .sidebar {
         grid-area: sidebar;
-        background-color: #B3E5FC;
-        color: #01579B;
+        background-color: #8fa6c1;
+        color: black;
+        font-size:12px;
     }
     p {
         font-size:10px;
@@ -133,11 +135,9 @@ body {
             .header {
                 display: flex;
                 grid-area: header;
-                background-color: #E0F7FA	;
                 align-items: center;
                 font-size: 10px;
                 justify-content: center;
-                color: #004D40 ;
                 transition:all 0.3s ease;
             }
             .navbar {
@@ -145,7 +145,6 @@ body {
                 align-items: center;
                 justify-content: center;
                 grid-area: navbar;
-                background-color: #0288D1	;
                 font-size: 20px;
             }
             .menu {
@@ -181,13 +180,13 @@ body {
             .menu {
                 list-style: none;
                 display: flex;
-                gap: 20px;
                 margin: 0;
                 padding: 0;
                 flex-direction: column;
                 align-items: start;
+                justify-content: flex-start;
+                text-align: left;
                 font-size: 20px;
-                width: 150px;
                 
             }
             .menu a:hover {
@@ -216,4 +215,5 @@ body {
     color: #a4cae7;
     font-size: 20px;
 }
+
 >>>>>>> 098c9c95504878512de7eefe6309a87ac5ed91be
