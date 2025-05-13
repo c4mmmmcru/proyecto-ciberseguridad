@@ -11,6 +11,7 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
 }
 body {
     min-height: 100%;
@@ -20,6 +21,10 @@ body {
     border-radius: 3px;
     padding: 10px;
     text-align: center;
+=======
+    justify-content: center;
+    background-color: #2F4156;
+>>>>>>> 098c9c95504878512de7eefe6309a87ac5ed91be
 }
 
 .grid-container {
@@ -204,3 +209,11 @@ body {
     color: #FFFFFF;
     transition:all 0.3s ease;
 }
+<<<<<<< HEAD
+=======
+
+.menu a:hover {
+    color: #a4cae7;
+    font-size: 20px;
+}
+>>>>>>> 098c9c95504878512de7eefe6309a87ac5ed91be
