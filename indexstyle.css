@@ -1,6 +1,6 @@
 @font-face {
     font-family: "mifuente";
-    src: url(fonts/Pretty\ Spring.ttf) format('truetype');
+    src: url(fonts/GavolineDemo.otf) format('truetype');
 }
 
 *{
@@ -111,6 +111,7 @@ html{
 }
 h1{
     color:#2f4156;
+    padding-top: 10px;
     font-size:60px;
     margin-bottom: 15px;
     justify-content: center;
