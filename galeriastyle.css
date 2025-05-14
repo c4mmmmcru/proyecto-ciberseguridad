@@ -33,7 +33,10 @@ body {
    grid-area: main;
     background-color: white;
 }
-
+.sidebar{
+    grid-area: sidebar;
+    background-color: white;
+}
 .footer{
     grid-area: footer;
     background-color: #c8d9e6;
@@ -118,7 +121,6 @@ h4{
 }
 
 table{
-    align-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 100px;   
